@@ -1,0 +1,32 @@
+{
+  "name": "apollo-prisma-sqlite-ts-server-boilerplaite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node-dev --transpile-only --no-notify --exit-child src/index.ts",
+    "generate": "ts-node --transpile-only src/schema.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yRabchevskiy/Apollo-Prisma-SQLite-TS-Server-Boilerplaite.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yRabchevskiy/Apollo-Prisma-SQLite-TS-Server-Boilerplaite/issues"
+  },
+  "homepage": "https://github.com/yRabchevskiy/Apollo-Prisma-SQLite-TS-Server-Boilerplaite#readme",
+  "dependencies": {
+    "@prisma/client": "^4.6.1",
+    "apollo-server": "^3.11.1",
+    "dotenv": "^16.0.3",
+    "graphql": "^16.6.0",
+    "nexus": "^1.3.0",
+    "prisma": "^4.6.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.8.4"
+  }
+}
